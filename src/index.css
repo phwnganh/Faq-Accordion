@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+:root {
+  font-family: 'Work Sans', sans-serif;
+
+  @theme{
+    --color-purple-100: #F8EEFF;
+    --color-purple-600: #8B6990;
+    --color-purple-950: #301534;
+
+    --color-violet-600: #AD28EB;
+  }
+}
+
+
