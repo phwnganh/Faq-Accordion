@@ -9,7 +9,7 @@ const FaqMainContent = () => {
         setOpenAnswerId(prev => prev === id ? null : id)
     }
     return (
-        <main>
+        <main aria-label={"primary faq content"}>
             {data.map((item) => (
                 <FAQContentItem key={item.id} item={item} isOpenAnswer={openAnswerId === item.id} onOpenAnswer={() => handleOpenAnswer(item.id)}/>
             ))}
