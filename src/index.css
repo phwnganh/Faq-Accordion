@@ -8,6 +8,17 @@
     --color-purple-950: #301534;
 
     --color-violet-600: #AD28EB;
+
+    --text-preset-1: 56px;
+    --leading-preset-1: 66px;
+    --font-weight-preset-1: 700;
+
+    --text-preset-2: 18px;
+    --leading-preset-2: 21px;
+    --font-weight-preset-2: 600;
+
+    --text-preset-3: 16px;
+    --leading-preset-3: 24px;
   }
 }
 
